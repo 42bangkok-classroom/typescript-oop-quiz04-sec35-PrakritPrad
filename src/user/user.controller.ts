@@ -1,10 +1,10 @@
 
 import { Controller, Get } from '@nestjs/common';
 
-@Controller('cats')
+@Controller('user/test')
 export class CatsController {
   @Get()
-  findAll(): string {
-    return 'This action returns all cats';
+  test(): string[] {
+    return [];
   }
 }
